@@ -1,0 +1,7 @@
+Flask==2.3.3         # Compatible with Python 3.12
+imutils==0.5.4       # Latest available version
+#Keras==2.17.0        # Matches TensorFlow 2.17.1
+opencv-python==4.8.1.78
+Pillow==10.0.1
+tensorflow==2.17.1
+scikit-image==0.21.0
