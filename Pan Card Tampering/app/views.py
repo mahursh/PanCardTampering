@@ -29,7 +29,7 @@ def index():
         uploaded_image.save(os.path.join(app.config["INITIAL_FILE_UPLOADS"], 'image.jpg'))
 
         # Resize and save the original image to ensure both uploaded and original matches in size
-        original_image = Image.open(os.path.join(app.config["EXISTING_FILE"], 'image.png')).resize((250,160))
+        original_image = Image.open(os.path.join(app.config["EXISTING_FILE"], 'image.jpg')).resize((250,160))
         original_image.save(os.path.join(app.config["EXISTING_FILE"], 'image.jpg'))
 
         # Read Uploaded and original image as array
