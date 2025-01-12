@@ -9,7 +9,7 @@ class Config(object):
 
     basedir = os.path.abspath(os.path.dirname(__file__))
 
-    SECRET_KEY = 'mah94mah'
+    SECRET_KEY = 'mahoor'
 
     UPLOADS = "C:/test"
 
